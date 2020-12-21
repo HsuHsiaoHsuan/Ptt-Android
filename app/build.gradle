@@ -106,6 +106,8 @@ dependencies {
     // Square
     implementation deps.square.okhttp
     implementation deps.square.okio
+    implementation deps.square.retrofit
+    implementation deps.square.converterGson
 
     testImplementation deps.google.truth
     testImplementation deps.junit

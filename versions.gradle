@@ -32,6 +32,8 @@ ext.versions = [
         "mockK": '1.10.2',
         'okhttp': '4.9.0',
         'okio': '2.8.0',
+        'retrofit': '2.9.0',
+        'converterGson': '2.9.0',
         'truth': '1.1',
         'leakcanary': '2.5',
         'gson' : '2.8.6',
@@ -107,6 +109,8 @@ ext.deps = [
         'square': [
                 'okhttp': "com.squareup.okhttp3:okhttp:${versions.okhttp}",
                 'okio': "com.squareup.okio:okio:${versions.okio}",
+                'retrofit': "com.squareup.retrofit2:retrofit:${versions.retrofit}",
+                'converterGson': "com.squareup.retrofit2:converter-gson:${versions.converterGson}",
                 'leakcanary': "com.squareup.leakcanary:leakcanary-android:${versions.leakcanary}"
         ]
 ]
